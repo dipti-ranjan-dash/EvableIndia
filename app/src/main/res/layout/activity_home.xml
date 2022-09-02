@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context=".layout.home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/top">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="196dp"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="dipti"
+                android:textColorHint="@color/Orange"
+                android:textColor="@color/Orange">
+
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="dipti">
+
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="dipti">
+
+            </RadioButton>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="dipti">
+
+            </RadioButton>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/shape"
+            android:hint="Serial Number "
+            android:paddingLeft="30dp"
+            android:paddingRight="25dp"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textColorHint="#565656" />
+
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/newshape"
+            android:shadowColor="@color/darkblue"
+            android:text="save"
+            android:textColorHint="@color/Orange">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>

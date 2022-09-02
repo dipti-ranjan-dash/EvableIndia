@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical"
+    tools:context=".layout.signup">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/logoup">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="155dp"
+            android:text="Sign up "
+            android:textColor="@color/darkblue"
+            android:textSize="25dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:hint="Name"
+            android:inputType="text"
+            android:paddingLeft="30dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="#565656" />
+
+        <EditText
+            android:id="@+id/email_signup"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:hint="example@gmail.com"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="30dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="#565656" />f
+
+        <EditText
+            android:id="@+id/pass_signup"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="30dp"
+            android:paddingRight="25dp"
+            android:textColor="@color/black"
+            android:textColorHint="#565656" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/Sign_up"
+            android:layout_width="120dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="30dp"
+            android:text="Sign up"
+            android:onClick="signUpprocess"
+            android:textAllCaps="false"
+            android:textSize="18dp">
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/tv">
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
